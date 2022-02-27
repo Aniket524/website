@@ -1,0 +1,161 @@
+*{
+    scroll-behavior: smooth;
+}
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('./alexander-jawfox-Kl2t5U6Gkm0-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.left {
+    /* display: inline-block;*/
+    position: absolute; 
+    display: flex;
+    /* flex-direction: column; */
+    font-weight: 80;
+    left: 60px;
+    top: 20px;
+    /* border: 2px  solid red; */
+    align-items: center;
+    justify-content: flex-start;
+    height: fit-content;
+    top: -1.5px;
+}
+
+.left img {
+    width: 136px;
+    padding-bottom: 10px;
+}
+
+.left div {
+    line-height: 21px;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.mid {
+    /* border: 2px solid red; */
+    display: flex;
+    width: 36%;
+    margin: 29px auto;
+}
+
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+}
+.right .btn a,.btn a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 15px;
+    margin-right:10px ;
+    transition: ease-out;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    transform: scale(1.5);
+    text-decoration: underline;
+    color: grey;
+
+}
+
+.btn{
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+    transform: scale(1.2);
+}
+
+.main{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main h1{
+    font-size: 60px;
+}
+
+.main h3{
+    font-size: 40px;
+    background-color: rgba(27, 214, 214,0.8);
+}
+.container {
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+.mail-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(215, 240, 231,0.5);
+    height: 50px;
+}
+
+.mail-us .btn a{
+    padding: 20px 0;
+}
